@@ -31,3 +31,4 @@ jobs:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
         run: |
           docker push $DOCKERHUB_USERNAME/my-web-app:latest
+# Trigger CI/CD
